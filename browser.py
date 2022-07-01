@@ -225,6 +225,7 @@ class BrowserClass():
                 self.path = file.replace("\\","/")
                 self.Options = self.glob_dir()
                 self.MenuMax = len(self.Options)-1
+        return file_choice
 
 
     def show(self):
