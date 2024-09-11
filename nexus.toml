@@ -1,0 +1,42 @@
+[project]
+name = "zpp_browser"
+version = "1.0.2"
+description = "Browser (Explorateur) de fichier en cli"
+mainfile = "browser.py"
+requires-python = ">=3.6"
+
+[project.metadata]
+authors = ["ZephyrOff"]
+maintainers = []
+readme = "README.md"
+license = "MIT License"
+license_file = "LICENSE"
+keywords = []
+classifiers = []
+copyright = ""
+changelog = "changelog.md"
+
+[project.urls]
+changelog = ""
+homepage = "https://github.com/ZephyrOff/zpp_browser"
+documentation = "https://github.com/ZephyrOff/zpp_browser"
+
+[project.dependencies.windows]
+
+[project.dependencies.linux]
+
+[project.build]
+packages = ["os", "glob", "ctypes"]
+includes = []
+excludes = []
+include_files = []
+optimize = 0
+no_compress = false
+GUI = false
+icon = ""
+
+[project.wheel]
+platforms = "ALL"
+
+[project.wheel.entry_points]
+console_scripts = []

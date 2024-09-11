@@ -1,17 +1,6 @@
-####################################################################
-#/ Nom du projet: py-zpp_browser                                  /#
-#/ Nom du fichier: browser.py                                     /#
-#/ Type de fichier: fichier principal                             /#
-#/ Fichier annexe:                                                /#
-#/                                                                /#
-#/ Auteur: ZephyrOff  (Alexandre Pajak)                           /#
-#/ Version: 1.0                                                   /#
-#/ Description: Browser (Explorateur) de fichier en cli           /#
-#/ Date: 27/06/2022                                               /#
-####################################################################
-
 import os
 from glob import glob
+
 
 if os.name=="nt":
     from msvcrt import getch,kbhit
