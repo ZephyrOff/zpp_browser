@@ -1,4 +1,4 @@
-# :open_file_folder: zpp-browser
+# zpp-browser
 ## Informations
 Librairie pour l'utilisateur d'un explorateur de fichier en cli pour la sélection d'un fichier
 
